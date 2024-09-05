@@ -33,7 +33,6 @@ function RegisterForm() {
                 setShowAlert(true);
 
                 setTimeout(() => {
-                    // setShowAlert(false)
                     navigate("/login")
                 }, 1500)
             }
